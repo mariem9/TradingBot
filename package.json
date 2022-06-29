@@ -1,0 +1,17 @@
+{
+  "name": "dvf-bot-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "trade.js",
+  "scripts": {
+    "setup": "node setup",
+    "start": "node trade"
+  },
+  "author": "Thiago Kroger",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dvf-client-js": "github:deversifi/dvf-client-js#dev",
+    "truffle-hdwallet-provider": "^1.0.17"
+  }
+}
